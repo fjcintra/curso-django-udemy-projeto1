@@ -4,30 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c5901f-8965-4f42-8285-22a0dfa5f6b0" name="Changes" comment="praticando git">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d2c5901f-8965-4f42-8285-22a0dfa5f6b0" name="Changes" comment="Remove unwanted files and updated .gitignore files.">
+      <change afterPath="$PROJECT_DIR$/base_templates/global/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/templates/recipes/contato.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/templates/recipes/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/curso-django-projeto1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/curso-django-projeto1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/novo.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2gNXGyqy5JF50TLJz2rse1m5eqO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,14 +59,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/fabio/OneDrive/Documentos/Projetos/curso-django-projeto1/projeto/settings.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -55,6 +80,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabio\OneDrive\Documentos\Projetos\curso-django-projeto1\base_templates\global" />
+      <recent name="C:\Users\fabio\OneDrive\Documentos\Projetos\curso-django-projeto1\recipes\templates\recipes" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,7 +102,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715538917507</updated>
-      <workItem from="1715538924016" duration="2078000" />
+      <workItem from="1715538924016" duration="4125000" />
+      <workItem from="1715543114757" duration="66000" />
+      <workItem from="1715552495953" duration="1002000" />
+      <workItem from="1715637000240" duration="3856000" />
+      <workItem from="1715641219233" duration="1454000" />
+      <workItem from="1715725069440" duration="213000" />
+      <workItem from="1715725698138" duration="4852000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -105,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715540546244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove unwanted files and updated .gitignore files.">
+      <option name="closed" value="true" />
+      <created>1715541216145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715541216145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +172,7 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="comentário" />
     <MESSAGE value="praticando git" />
-    <option name="LAST_COMMIT_MESSAGE" value="praticando git" />
+    <MESSAGE value="Remove unwanted files and updated .gitignore files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unwanted files and updated .gitignore files." />
   </component>
 </project>
