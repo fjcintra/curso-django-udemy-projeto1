@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c5901f-8965-4f42-8285-22a0dfa5f6b0" name="Changes" comment="Atualização de pastas de templates.">
+    <list default="true" id="d2c5901f-8965-4f42-8285-22a0dfa5f6b0" name="Changes" comment="Removed Contacts and About">
+      <change afterPath="$PROJECT_DIR$/recipes/templates/recipes/pages/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes/templates/recipes/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/templates/recipes/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes/templates/recipes/home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/recipes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,35 +39,39 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fabio/OneDrive/Documentos/Projetos/curso-django-projeto1/projeto/settings.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/fabio/OneDrive/Documentos/Projetos/curso-django-projeto1/projeto/settings.py",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabio\OneDrive\Documentos\Projetos\curso-django-projeto1\recipes\templates\recipes\pages" />
       <recent name="C:\Users\fabio\OneDrive\Documentos\Projetos\curso-django-projeto1\base_templates\global" />
       <recent name="C:\Users\fabio\OneDrive\Documentos\Projetos\curso-django-projeto1\recipes\templates\recipes" />
     </key>
@@ -92,7 +99,8 @@
       <workItem from="1715641219233" duration="1454000" />
       <workItem from="1715725069440" duration="213000" />
       <workItem from="1715725698138" duration="5660000" />
-      <workItem from="1715810117242" duration="436000" />
+      <workItem from="1715810117242" duration="1490000" />
+      <workItem from="1715895603228" duration="3404000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -142,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715730711808</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed Contacts and About">
+      <option name="closed" value="true" />
+      <created>1715810614383</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715810614383</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +182,7 @@
     <MESSAGE value="praticando git" />
     <MESSAGE value="Remove unwanted files and updated .gitignore files." />
     <MESSAGE value="Atualização de pastas de templates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização de pastas de templates." />
+    <MESSAGE value="Removed Contacts and About" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Contacts and About" />
   </component>
 </project>
