@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c5901f-8965-4f42-8285-22a0dfa5f6b0" name="Changes" comment="Separated html into head (with html header) and home (main page)">
+    <list default="true" id="d2c5901f-8965-4f42-8285-22a0dfa5f6b0" name="Changes" comment="Started creating the styles for the page (styles are still in head.html file)">
+      <change afterPath="$PROJECT_DIR$/recipes/templates/recipes/partials/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipes/templates/recipes/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/templates/recipes/pages/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipes/templates/recipes/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/templates/recipes/partials/head.html" afterDir="false" />
@@ -98,7 +99,9 @@
       <workItem from="1715725698138" duration="5660000" />
       <workItem from="1715810117242" duration="1490000" />
       <workItem from="1715895603228" duration="4110000" />
-      <workItem from="1716848572513" duration="2806000" />
+      <workItem from="1716848572513" duration="2949000" />
+      <workItem from="1716851573104" duration="453000" />
+      <workItem from="1716941775805" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -164,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715899418872</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started creating the styles for the page (styles are still in head.html file)">
+      <option name="closed" value="true" />
+      <created>1716851503802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716851503802</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,7 @@
     <MESSAGE value="Atualização de pastas de templates." />
     <MESSAGE value="Removed Contacts and About" />
     <MESSAGE value="Separated html into head (with html header) and home (main page)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separated html into head (with html header) and home (main page)" />
+    <MESSAGE value="Started creating the styles for the page (styles are still in head.html file)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started creating the styles for the page (styles are still in head.html file)" />
   </component>
 </project>
